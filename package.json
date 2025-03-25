@@ -19,7 +19,7 @@
     "react-dom": "^19.0.0",
     "react-hook-form": "^7.39.2",
     "react-markdown": "^10.0.3",
-    "react-syntax-highlighter": "15.6.0",
+    "react-syntax-highlighter": "^15.6.1",
     "react-use": "^17.4.0"
   },
   "devDependencies": {
@@ -32,7 +32,7 @@
     "@types/node": "^22",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@types/react-syntax-highlighter": "^15.5.13",
+    "@types/react-syntax-highlighter": "15.5.13",
     "eslint": "^9.23.0",
     "eslint-config-next": "15.2.4",
     "eslint-plugin-jest-dom": "^5.5.0",
