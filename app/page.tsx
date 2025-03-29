@@ -38,6 +38,13 @@ export default function Page() {
             className="hidden md:block" /* 768px以上で表示*/
             alt="Screenshots of the dashboard project showing desktop version"
           />
+          <Image
+            src="/hero-mobile.png"
+            width={560}
+            height={620}
+            className="block md:hidden" /* 768px以上で表示*/
+            alt="Screenshots of the dashboard project showing desktop version"
+          />
         </div>
       </div>
     </main>
