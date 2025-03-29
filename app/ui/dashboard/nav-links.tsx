@@ -1,4 +1,4 @@
-"use client";
+"use client"; //useState, useEffect, usePathnameなどはClient Componentである必要あり
 import {
   UserGroupIcon,
   HomeIcon,
@@ -21,7 +21,7 @@ const links = [
 ];
 
 export default function NavLinks() {
-  const pathname = usePathname();
+  const pathname = usePathname(); // Client Componentである必要あり
   return (
     <>
       {links.map((link) => {
