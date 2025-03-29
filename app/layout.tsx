@@ -6,6 +6,7 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  // The root layout must define <html> and <body> tags.
   return (
     <html lang="en">
       <body>{children}</body>
