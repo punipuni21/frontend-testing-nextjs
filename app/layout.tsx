@@ -1,4 +1,5 @@
 import "@/app/ui/global.css";
+import { inter } from "./ui/fonts";
 
 // The app directory must include a root app/layout.js.
 export default function RootLayout({
@@ -9,7 +10,7 @@ export default function RootLayout({
   // The root layout must define <html> and <body> tags.
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={`${inter.className} antialiased`}>{children}</body>
     </html>
   );
 }
