@@ -9,6 +9,9 @@ const createJestConfig = nextJest({
  
 // Add any custom config to be passed to Jest
 const config: Config = {
+  moduleNameMapper: {
+    "^@/(.*)$": "<rootDir>/$1",
+  },
   bail: true,
   preset: "ts-jest",
   coverageProvider: 'v8',
