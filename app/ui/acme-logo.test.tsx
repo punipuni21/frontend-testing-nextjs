@@ -1,6 +1,5 @@
 import { render, screen } from "@testing-library/react";
 import { fetchFilteredCustomers } from "@/app/lib/data";
-import CustomersTable from "@/app/ui/customers/table";
 import Page from "../dashboard/customers/page";
 import { FormattedCustomersTable } from "@/app/lib/definitions";
 
